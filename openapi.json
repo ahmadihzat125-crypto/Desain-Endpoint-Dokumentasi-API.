@@ -21,7 +21,7 @@
         "parameters": [],
         "responses": {
           "200": {
-            "description": "Daftar destinasi berhasil diambil"
+            "description": ""
           }
         },
         "summary": "Menampilkan daftar destinasi wisata",
@@ -44,13 +44,10 @@
         },
         "responses": {
           "201": {
-            "description": "Destinasi berhasil dibuat"
-          },
-          "400": {
-            "description": "Data tidak valid"
+            "description": ""
           }
         },
-        "summary": "Menambahkan destinasi baru (khusus admin)",
+        "summary": "Menambahkan destinasi baru",
         "tags": [
           "Destinasi"
         ]
@@ -71,7 +68,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Detail destinasi ditemukan"
+            "description": ""
           }
         },
         "summary": "Menampilkan detail destinasi berdasarkan ID",
@@ -103,7 +100,7 @@
         },
         "responses": {
           "200": {
-            "description": "Destinasi berhasil diperbarui"
+            "description": ""
           }
         },
         "summary": "Memperbarui data destinasi",
@@ -125,7 +122,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Destinasi berhasil dihapus"
+            "description": ""
           }
         },
         "summary": "Menghapus data destinasi",
